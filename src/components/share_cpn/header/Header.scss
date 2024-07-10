@@ -1,0 +1,109 @@
+.header-wrapper {
+    width: 100%;
+    height: auto;
+    background-color: hsl(216 72% 37%);
+    .header-content {
+        padding: 1rem 0;
+        margin: auto;
+        max-width: 1160px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        .top-header {
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            .search {
+                min-width: 50%;
+                min-height: 40px;
+                border: 1px solid grey;
+                background-color: white;
+                border-radius: 10px;
+                .search-content {
+                    min-height: 40px;
+                    margin: 0 1rem;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content:flex-start;
+                    gap: 1rem;
+                    .search-input {
+                        outline: none;
+                        border: none;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .service {
+                display: flex;
+                flex-direction: row;
+                gap: 2rem;
+            }
+            .col-margin {
+                height: 20px;
+                width: 1px;
+                background-color:aliceblue;
+            }
+            .account {
+                min-height: 35px;
+                min-width: 15%;
+                border-radius: 30px;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                .account-wrapper {
+                    width: 100%;
+                    margin: 0 0.5rem;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 0.5rem;
+                    .account-content {
+                        color: black;
+                        font-size: 14px;                        
+                    }
+                }
+            }
+        }
+        .bot-header {
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            .category {
+                background-color: white;
+                min-width: 200px;
+                border-radius: 10px;
+                color: black;
+                &:hover {
+                    cursor: pointer;
+                    color: hsl(216 72% 37%);;
+                }
+                .category-content {
+                    margin: 0.5rem 1rem;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .category-name {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 0.8rem;
+                        font-size: 16px;
+                        font-weight: 500;
+                        align-items: center;
+                    }
+                }
+               
+            }
+        }
+    }
+
+}
