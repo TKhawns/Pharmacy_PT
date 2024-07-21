@@ -14,7 +14,7 @@ function Header() {
             <img
               alt="logo-app"
               width={"150px"}
-              src="https://www.pharmacity.vn/logo-white-text.svg"
+              src="https://prod-cdn.pharmacity.io/e-com/images/static-website/20240706161420-0-logo-white-text.svg"
             />
           </div>
           <div className="search">
@@ -55,8 +55,8 @@ function Header() {
               </div>
               <div className="right-icon">
                 <svg
-                  height={"16px"}
-                  viewBox="0 0 24 24"
+                  height={"15px"}
+                  viewBox="0 0 22 22"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >

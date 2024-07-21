@@ -1,0 +1,32 @@
+.home-wrapper {
+    width: 100%;
+    .ads-section {
+        margin: 2rem;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        aspect-ratio: 1200 / 337;
+        gap: 1rem;
+        .left-ads {
+            width: 32.4%;
+            height: 100%;
+            display: grid;
+            grid-template-rows: auto auto;
+            .image {
+                max-width: 100%;
+                border-radius: .75rem;
+            }
+        }
+        .right-ads {
+            height: 100%;
+            width: 67.6%;
+            
+        }
+    }
+    .category-section {
+        margin: 1rem 0;
+    }
+    .sale-section {
+        margin: 3rem 0;
+    }
+}
