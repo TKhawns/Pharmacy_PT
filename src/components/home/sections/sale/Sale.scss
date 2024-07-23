@@ -1,14 +1,21 @@
 .sale-wrapper {
     background-size: auto 100%;
+    height: 100vh;
     background-image: url(https://prod-cdn.pharmacity.io/e-com/images/ecommerce/20240322103823-0-background_flashsale.png);
-    .top-banner {
+    .top-line {
         width: 100%;
         height: .75rem;
         background-color: hsl(0 0% 97%);
-        .top-banner-content {
-            margin: auto;
-            width: 1180px;
-            max-width: 100%;
+    }
+    .sale-container {
+        max-width: 1232px;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        .sale-banner {
+            margin-top: -0.8rem;
             position: relative;
             .under-left {
                 background-color: hsl(222 96% 10%);
@@ -27,29 +34,65 @@
                 right: 0;
                 position: absolute;
             }
-        }
-    }
-    .sale-content {
-        max-width: 1160px;
-        width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        padding-right: 1rem;
-        padding-left: 1rem;
-        position: relative;
-        .banner {
-            height: 76px;
-            z-index: 1;
-            align-items: center;
-            .banner-image {
+            .banner {
+                height: 76px;
                 max-width: 100%;
-                top: -0.75rem;
+                padding-left: .4rem;
+                padding-right: .4rem;
                 position: absolute;
+                z-index: 10;
+                .banner-image {
+                    width: 100vw;
+                    max-width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+            .banner-content {    
+                height: 76px;
+                max-width: 100% !important;
+                z-index: 100;
+                position: absolute;
+                padding-left: 5rem;
+                display: flex;
+                align-items: center;
+                gap: 5rem;
+                .content-image {
+                    height: 40px;
+                }
+                .content-time {
+                    display: flex;
+                    align-items: center;
+                    gap: 1rem;
+                    .square {
+                        width: 4rem;
+                        height: 4rem;
+                        background-color: rgb(255 255 255 / 1);
+                        border-radius: 5px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: red;
+                        font-size: 2.2rem;
+                        font-weight: 700;
+                    
+                    }
+                    .text {
+                        color: white;
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                    }
+                }
             }
         }
+        .sale-product {
+            position: relative;
+            padding-top: 8rem;
+            padding-bottom: 1rem;
+        }
     }
+
     .bot-banner {
-        height: .75rem;
         background-color: hsl(0 0% 97%);
     }
 }

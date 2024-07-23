@@ -69,7 +69,7 @@ function Header() {
             </div>
           </div>
           <div>Thuốc</div>
-          <div>Tra cứu bênh</div>
+          <div>Tra cứu bệnh</div>
           <div>Thực phẩm chức năng</div>
           <div>Chăm sóc cá nhân</div>
           <div>Thiết bị y tế</div>
